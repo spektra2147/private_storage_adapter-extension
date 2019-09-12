@@ -56,7 +56,7 @@ class LoadDisk
             $this->disk,
             new Local($root),
             [
-                'base_url' => 'files',
+                'base_url' => url('files'),
             ]
         );
 
