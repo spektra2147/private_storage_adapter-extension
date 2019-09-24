@@ -13,12 +13,11 @@ class AnomalyExtensionPrivateStorageAdapterCreatePrivateStorageAdapterFields ext
     protected $fields = [
         'name' => 'anomaly.field_type.text',
         'slug' => [
-            'type' => 'anomaly.field_type.slug',
+            'type'   => 'anomaly.field_type.slug',
             'config' => [
                 'slugify' => 'name',
-                'type' => '_'
+                'type'    => '_',
             ],
         ],
     ];
-
 }

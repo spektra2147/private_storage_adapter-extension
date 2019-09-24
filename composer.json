@@ -31,7 +31,6 @@
     "require": {
         "anomaly/streams-platform": "^2.0"
     },
-
     "autoload": {
         "psr-4": {
             "Anomaly\\PrivateStorageAdapterExtension\\": "src/"
