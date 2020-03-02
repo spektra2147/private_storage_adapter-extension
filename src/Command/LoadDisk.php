@@ -73,7 +73,7 @@ class LoadDisk
             'filesystems.disks.' . $this->disk->getSlug(),
             [
                 'driver' => $this->disk->getSlug(),
-                'root'   => url('files'),
+                'root'   => $root,
             ]
         );
     }
