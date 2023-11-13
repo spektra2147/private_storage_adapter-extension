@@ -1,5 +1,5 @@
 {
-    "name": "anomaly/private_storage_adapter-extension",
+    "name": "spektra2147/private_storage_adapter-extension",
     "type": "streams-addon",
     "description": "A private file storage adapter.",
     "keywords": [
